@@ -1,4 +1,4 @@
-Why Did My App Fail?
+#Why Did My App Fail?
 
 A lightweight, rule-based **command-line debugging assistant** that explains *why* an error occurred and *how* to fix it — in plain English.
 
