@@ -1,0 +1,38 @@
+[
+    {
+        "pattern": "EADDRINUSE",
+        "category": "Node.js",
+        "cause": "The port your app is trying to use is already occupied.",
+        "fix": "Stop the running process or change the port number."
+    },
+    {
+        "pattern": "Cannot find module",
+        "category": "Node.js",
+        "cause": "A required dependency is missing or incorrectly referenced.",
+        "fix": "Run npm install or check the module name and path."
+    },
+    {
+        "pattern": "MODULE_NOT_FOUND",
+        "category": "Node.js",
+        "cause": "Node.js cannot locate the required file or package.",
+        "fix": "Verify the file path or reinstall dependencies."
+    },
+    {
+        "pattern": "Unexpected token",
+        "category": "JavaScript",
+        "cause": "There is a syntax error in your JavaScript code.",
+        "fix": "Check for missing brackets, commas, or invalid syntax."
+    },
+    {
+        "pattern": "ERR_REQUIRE_ESM",
+        "category": "Node.js",
+        "cause": "An ES module is being imported using require().",
+        "fix": "Use import syntax or change the module type configuration."
+    },
+    {
+        "pattern": "process.env",
+        "category": "Node.js",
+        "cause": "An environment variable is undefined or missing.",
+        "fix": "Check your .env file and ensure dotenv is configured correctly."
+    }
+]

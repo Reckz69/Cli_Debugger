@@ -1,0 +1,26 @@
+[
+    {
+        "pattern": "ECONNREFUSED",
+        "category": "Network",
+        "cause": "The application could not connect to the target server.",
+        "fix": "Ensure the server is running and the host/port are correct."
+    },
+    {
+        "pattern": "timeout",
+        "category": "Network",
+        "cause": "The request took too long to respond.",
+        "fix": "Check network connectivity or increase timeout limits."
+    },
+    {
+        "pattern": "401",
+        "category": "Authentication",
+        "cause": "Authentication failed due to invalid or missing credentials.",
+        "fix": "Check API keys, tokens, or login credentials."
+    },
+    {
+        "pattern": "403",
+        "category": "Authorization",
+        "cause": "You do not have permission to access this resource.",
+        "fix": "Verify access rights or role permissions."
+    }
+]

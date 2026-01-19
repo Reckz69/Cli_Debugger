@@ -1,0 +1,26 @@
+[
+    {
+        "pattern": "non-fast-forward",
+        "category": "Git",
+        "cause": "Your local branch is behind the remote branch.",
+        "fix": "Run git pull --rebase before pushing again."
+    },
+    {
+        "pattern": "merge conflict",
+        "category": "Git",
+        "cause": "Git could not automatically merge changes.",
+        "fix": "Manually resolve conflicts and commit the changes."
+    },
+    {
+        "pattern": "detached HEAD",
+        "category": "Git",
+        "cause": "You are not currently on any branch.",
+        "fix": "Checkout a branch or create a new one before committing."
+    },
+    {
+        "pattern": "permission denied",
+        "category": "Git",
+        "cause": "You do not have permission to access the repository.",
+        "fix": "Check repository access rights or SSH key configuration."
+    }
+]
